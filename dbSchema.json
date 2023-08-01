@@ -1,0 +1,26 @@
+{
+  "mediaCard": {
+    "user": { "type": "string" },
+    "sourceIcon": { "type": "string" },
+    "sourceName": { "type": "string" },
+    "category": { "type": "string" },
+    "imgUri": { "type": "string" },
+    "avatarImg": { "type": "string" },
+    "avatarText": { "type": "string" },
+    "handle": { "type": "string" },
+    "cardId": { "type": "string" },
+    "bookmarked": { "type": "boolean", "default": false },
+    "favourited": { "type": "boolean", "default": false }
+  },
+  "textCard": {
+    "user": { "type": "string" },
+    "sourceIcon": { "type": "string" },
+    "sourceName": { "type": "string" },
+    "category": { "type": "string" },
+    "heading": { "type": "string" },
+    "subheading": { "type": "string" },
+    "cardId": { "type": "string" },
+    "bookmarked": { "type": "boolean", "default": false },
+    "favourited": { "type": "boolean", "default": false }
+  }
+}
